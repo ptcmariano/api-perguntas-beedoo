@@ -6,42 +6,19 @@
 
 > se vc deseja trabalhar no beedoo, faça um pull request lá :D
 
-## Installation
-
-```bash
-$ npm install
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-
 ## Running the app
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+docker-compose up -d
 ```
 
-## Stay in touch
+## View logs
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+```bash
+docker-compose logs -f docker-compose.yaml
+```
+## MADE with nestjs
+
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 
