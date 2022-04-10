@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: List files in the repository
         run: |
-          ls ${{ github.workspace }}
+          ls .
       - name: Use Node.js 16
         uses: actions/setup-node@v3
         with:
