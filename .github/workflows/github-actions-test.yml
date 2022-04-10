@@ -8,9 +8,9 @@ jobs:
   Test-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: List files in the repository
+      - name: List files
         run: |
-          ls .
+          ls ..
       - name: Use Node.js 16
         uses: actions/setup-node@v3
         with:
