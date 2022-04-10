@@ -1,5 +1,7 @@
 # api-perguntas-beedoo
 
+[![GitHub Actions Test](https://github.com/ptcmariano/api-perguntas-beedoo/actions/workflows/github-actions-test.yml/badge.svg)](https://github.com/ptcmariano/api-perguntas-beedoo/actions/workflows/github-actions-test.yml)
+
 ## Description
 
 > usando aqui nestjs para resolver o teste: [https://github.com/beedootestes/teste-desenvolvedor-pleno/blob/main/teste.md](https://github.com/beedootestes/teste-desenvolvedor-pleno/blob/main/teste.md)
