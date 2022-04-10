@@ -24,6 +24,11 @@ describe('QuestionsService', () => {
   it('should be use question text on create', () => {
     const RESULT_TEXT = 'question text';
     exampleQuestionDTO.text = RESULT_TEXT;
-    expect(service.create(exampleQuestionDTO)).toBe(RESULT_TEXT);
+    expect(service.create(exampleQuestionDTO).text).toBe(RESULT_TEXT);
+  });
+  it('should be use question type on create', () => {
+    const RESULT_TYPE = QuestionType.SINGLE_CHOICE;
+    exampleQuestionDTO.type = RESULT_TYPE;
+    expect(service.create(exampleQuestionDTO).type).toBe(RESULT_TYPE);
   });
 });
